@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".users.SokActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+        android:background="@color/biru">
+
+        <ImageView
+            android:id="@+id/btn_back6"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_back"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+            android:id="@+id/btn_home6"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_home"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Smart Book"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/Black"/>
+
+        <ImageView
+            android:id="@+id/btn_mart7"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/mart"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="130dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:clipToPadding="false"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:src="@drawable/sok"
+                android:layout_marginLeft="30dp">
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Sistem Operasi Komputer"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/Black"
+                    android:textAlignment="center">
+                </TextView>
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Penerbit CV. Sentosa Djaya">
+                </TextView>
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Perguruan Tinggi">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Harga : Rp.250.000"
+                    android:textColor="@color/biru">
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="5dp">
+
+                    <com.ornach.nobobutton.NoboButton
+                        android:id="@+id/btn_beli2"
+                        android:layout_width="100dp"
+                        android:layout_marginLeft="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:padding="10dp"
+                        android:layout_marginBottom="20dp"
+                        app:nb_text="Beli"
+                        app:nb_borderColor="#FFFFFF"
+                        app:nb_borderWidth="2dp"
+                        app:nb_backgroundColor="@color/darkBlue"
+                        app:nb_focusColor="@color/cyan"
+                        app:nb_textColor="#FFF"
+                        app:nb_radius="5dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/darkBlue">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buku Algoritma Pemrograman"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/Black">
+            </TextView>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Detail Buku"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/darkBlue">
+            </TextView>
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp">
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text="Kondisi Barang \n
+BEKAS \n
+\n
+Spesifikasi \n
+Kategori	:	Komputer \n
+Berat	:	600 gram \n
+Asal Barang	:	Lokal \n
+
+Deskripsi \n
+Kondisi buku bekas tapi masih layak untuk di baca.\n
+\n
+Sebelum order boleh tanya dulu kondisi buku,agar jangan terjadi kekecewaan setelah buku diterima,
+kami tidak melayani komplain,retur dan pengganti barang,ataupun pengembalian uang bilamana tidak ada pertanyaan sebelum order.
+Di order berarti setuju dengan kondisi buku.. selamat berbelanja di toko kami. \n"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/Black">
+                </TextView>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

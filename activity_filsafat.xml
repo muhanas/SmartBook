@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".users.FilsafatActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+        android:background="@color/biru">
+
+        <ImageView
+            android:id="@+id/btn_back4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_back"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+            android:id="@+id/btn_home4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_home"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/changa_one"
+            android:text="Smart Book"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/btn_mart5"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/mart"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="130dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:clipToPadding="false"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:src="@drawable/filsafat"
+                android:layout_marginLeft="30dp">
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Filsafat Ilmu"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/Black"
+                    android:textAlignment="center">
+                </TextView>
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Penerbit CV. Sentosa Djaya">
+                </TextView>
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:text="ISBN. : 979-010-064-7">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Harga : Rp.175.000"
+                    android:textColor="@color/biru">
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="5dp">
+
+                    <com.ornach.nobobutton.NoboButton
+                        android:id="@+id/btn_beli2"
+                        android:layout_width="100dp"
+                        android:layout_marginLeft="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:padding="10dp"
+                        android:layout_marginBottom="20dp"
+                        app:nb_text="Beli"
+                        app:nb_borderColor="#FFFFFF"
+                        app:nb_borderWidth="2dp"
+                        app:nb_backgroundColor="@color/darkBlue"
+                        app:nb_focusColor="@color/cyan"
+                        app:nb_textColor="#FFF"
+                        app:nb_radius="5dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/darkBlue">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buku Algoritma Pemrograman"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/Black">
+            </TextView>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Detail Buku"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/darkBlue">
+            </TextView>
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp">
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text="Kondisi Barang \n
+BARU \n
+Spesifikasi \n
+Kategori	:	Filsafat \n
+Berat	:	250 gram \n
+Asal Barang	:	Lokal \n
+Deskripsi \n
+Filsafat Ilmu dan Perkembangannya di Indonesia \n
+\n
+Suatu Pengantar \n
+Drs. Surajiyo \n
+BUMI AKSARA \n
+ORIGINAL \n
+ISBN. : 979-010-064-7 \n
+KERTAS : HVS \n
+CETAKAN VII : 2013 \n
+HALAMAN. : 184 \n
+DIMENSI. : 15.5 X 23 CM \n
+BERAT. : 250 Gram \n
+KONDISI. : Baru \n
+\n
+filsatat ilmu sebagai cabang filsafat yang merefleksikan radikal dan integral mengenai hakikat ilmu pengetahuan itu sendiri merupakan penerusan dalam pengembangan filsafat pengetahuan (epistemologi) sebab pengetahuan ilmiah tidak lain adalah a higher level dalam perangkat pengetahuan manusia dalam arti umum sebagaimana diterapkan dalam kehidupan sehari-hari. Keberadaan buku ini akan menambah wawasan para pembaca untuk mengenal lebih jauh filsafat ilmu meliputi ilmu filsafat, filsafat pengetahuan (epistemologi) dan ruang lingkupnya; masalah ilmu pengetahuan meliputi apa itu ilmu pengetahuan, sejarah, prinsip metodologi, penemuan kebenaran, definisi dan penalaran; mengenai pengembangan ilmu pengetahuan meliputi hubungan dan peranan ilmu terhadap kebudayaan nasional, etika keilmuan, dan strategi pengembangan ilmu di lndonesia"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/Black">
+                </TextView>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

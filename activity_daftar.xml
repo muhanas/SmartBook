@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".users.DaftarActivity"
+    android:background="@color/biru">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+
+        <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:labelText="Username">
+            <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                android:id="@+id/edtusername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+
+        <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:labelText="Email"
+            android:layout_marginTop="10dp">
+            <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                android:id="@+id/edtemail"
+                android:layout_marginBottom="5dp"
+                android:inputType="textEmailAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+
+        <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:labelText="No.Hp"
+            android:layout_marginTop="10dp">
+            <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                android:id="@+id/edthp"
+                android:layout_marginBottom="5dp"
+                android:inputType="number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+
+        <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:labelText="Password"
+            android:layout_marginTop="10dp">
+            <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                android:id="@+id/edtpassword"
+                android:layout_marginBottom="5dp"
+                android:inputType="textPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+
+        <com.ornach.nobobutton.NoboButton
+            android:id="@+id/regist"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp"
+            app:nb_text="Registrasi"
+            app:nb_borderColor="#FFFFFF"
+            app:nb_borderWidth="2dp"
+            app:nb_backgroundColor="@color/darkBlue"
+            app:nb_focusColor="@color/cyan"
+            app:nb_textColor="#FFF"
+            app:nb_radius="5dp"/>
+
+        <Button
+            android:id="@+id/te_regist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/sudah_punya_akun_login_disini"
+            android:textColor="@color/Black"
+            android:textAlignment="center"
+            android:background="@null"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="0dp"
+        android:src="@drawable/icon_login1"/>
+
+    <TextView
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Registrasi"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/darkBlue"
+        android:textSize="25sp" />
+
+</RelativeLayout>

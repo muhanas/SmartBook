@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".users.MathActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+        android:background="@color/biru">
+
+        <ImageView
+            android:id="@+id/btn_back3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_back"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+            android:id="@+id/btn_home3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_home"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/changa_one"
+            android:text="Smart Book"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/btn_mart4"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/mart"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="130dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:clipToPadding="false"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:src="@drawable/matematika"
+                android:layout_marginLeft="30dp">
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Matematika Dasar"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/Black"
+                    android:textAlignment="center">
+                </TextView>
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Penerbit CV. Sentosa Djaya">
+                </TextView>
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Perguruan Tinggi">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Harga : Rp.200.000"
+                    android:textColor="@color/biru">
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="5dp">
+
+                    <com.ornach.nobobutton.NoboButton
+                        android:id="@+id/btn_beli2"
+                        android:layout_width="100dp"
+                        android:layout_marginLeft="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:padding="10dp"
+                        android:layout_marginBottom="20dp"
+                        app:nb_text="Beli"
+                        app:nb_borderColor="#FFFFFF"
+                        app:nb_borderWidth="2dp"
+                        app:nb_backgroundColor="@color/darkBlue"
+                        app:nb_focusColor="@color/cyan"
+                        app:nb_textColor="#FFF"
+                        app:nb_radius="5dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/darkBlue">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buku Algoritma Pemrograman"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/Black">
+            </TextView>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Detail Buku"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/darkBlue">
+            </TextView>
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp">
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text="Kondisi Barang \n
+BARU \n
+Spesifikasi \n
+Kategori	:	Pendidikan \n
+Berat	:	450 gram \n
+Asal Barang	:	Lokal \n
+Deskripsi \n
+Packing tambahan bublee wrap dietalasee \n
+Buku import bisa request sampul harcover dengan biaya tambahan yg tersedia dietalasee \n
+kami menjual buku baru \n
+Buku non ori / kw kelas super. \n
+Cover Warna , cetakan hitam putih dan jelas lebih enak dan nyaman dibaca. \n
+Distribusi sesuai dengan jasa pengiriman yang anda pilih. \n
+Harga ramah pas di kantong. \n
+pembelian lebih dari 5 harga bisa kurang ya kak lewat chat. \n
+Proses pengiriman dilakukan setiap hari. \n
+Packing kami pastikan dilakukan dengan sebaik - baiknya. \n
+Pastikan alamat anda jelas dan lengkap. \n
+Pastikan no.Hp selalu aktif. \n
+Estimasi pengiriman sesuai jasa pengiriman yang anda pilih. \n
+\n
+HARGA MURAH BUKAN BERARTI KUALITAS PRODUK MURAHAN. HANYA SAJA UNTUK MEMENUHI PRIORITAS DARI SEGI EKONOMI DAN KEGUNAAN bosque. \n
+\n
+CATATAN \n
+INPUT RESI JAM12 .00WIB. \n
+\n
+PESANAN YG SUDAH DI BELI / DI BAYAR TIDAK BISA DI KEMBALIKAN / BATALKAN ATAS ALASAN APAPUN \n
+PESANAN JAM 12 LEBIH AKAN DI KIRIM HARI BERIKUTNYA. \n
+\n
+PESANAN DI HARI SABTU JAM 12 LEBIH AKAN DI KIRIM HARI SENIN. \n
+PERHATIAN! KELUHAN TENTANG KETERLAMBATAN,KESALAHAN PENGIRIMAN,BARANG RUSAK KARNA PENGIRIMAN,MOHON LANGSUNG HUBUNGI PIHAK EKSPEDISI.,, , \n"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/Black">
+                </TextView>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

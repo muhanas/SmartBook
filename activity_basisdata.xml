@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".users.BasisdataActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+        android:background="@color/biru">
+
+        <ImageView
+            android:id="@+id/btn_back5"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_back"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+            android:id="@+id/btn_home5"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_home"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/changa_one"
+            android:text="Smart Book"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/btn_mart6"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/mart"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="130dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:clipToPadding="false"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:src="@drawable/basisdata"
+                android:layout_marginLeft="30dp">
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Basis Data"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/Black"
+                    android:textAlignment="center">
+                </TextView>
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Penerbit CV. Sentosa Djaya">
+                </TextView>
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Perguruan Tinggi">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Harga : Rp.275.000"
+                    android:textColor="@color/biru">
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="5dp">
+
+                    <com.ornach.nobobutton.NoboButton
+                        android:id="@+id/btn_beli2"
+                        android:layout_width="100dp"
+                        android:layout_marginLeft="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:padding="10dp"
+                        android:layout_marginBottom="20dp"
+                        app:nb_text="Beli"
+                        app:nb_borderColor="#FFFFFF"
+                        app:nb_borderWidth="2dp"
+                        app:nb_backgroundColor="@color/darkBlue"
+                        app:nb_focusColor="@color/cyan"
+                        app:nb_textColor="#FFF"
+                        app:nb_radius="5dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/darkBlue">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buku Algoritma Pemrograman"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/Black">
+            </TextView>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Detail Buku"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/darkBlue">
+            </TextView>
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp">
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text="Kondisi Barang \n
+BARU \n
+Spesifikasi \n
+Kategori	:	Pendidikan \n
+Berat	:	250 gram \n
+Asal Barang	:	Lokal \n
+\n
+Deskripsi \n
+\n
+Dalam pembuatan sebuah sistem aplikasi, diperlukan sebuah basis data yang baik dan benar. Untuk menghasilkan basis data yang baik dan benar haruslah dilakukan perancangan dengan baik dan benar pula. Perancangan basis data dapat dilakukan dengan beberapa cara, salah satunya adalah dengan membuat Entity Relationship Diagram (ER-D). Pembacaan ER-D memang mudah dilakukan, namun bagaimana merancang ER-D yang baik dan benar? Dalam buku ini dibahas tentang ER-D dari simbol hingga langkah-langkah pembuatan ER-D yang baik dan benar. Selain itu buku ini juga membahas kasus yang ada dan cara penyelesaiannya. Sehingga pembaca, khususnya mahasiswa Fakultas Ilmu Komputer dapat membuat ER-D setahap demi setahap untuk menghasilkan basis data yang baik dan benar."
+                    android:layout_marginTop="10dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/Black">
+                </TextView>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".users.PemrogramanActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+        android:background="@color/biru">
+
+        <ImageView
+            android:id="@+id/btn_back2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_back"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+            android:id="@+id/btn_home2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_home"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/changa_one"
+            android:text="Smart Book"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/btn_mart3"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/mart"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="130dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:clipToPadding="false"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:src="@drawable/pemrograman"
+                android:layout_marginLeft="30dp">
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Buku Algoritma Pemrograman"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/Black"
+                    android:textAlignment="center">
+                </TextView>
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Penerbit CV. Sentosa Djaya">
+                </TextView>
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:text="ISBN : 602-1514-91-7">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Harga : Rp.250.000"
+                    android:textColor="@color/biru">
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="5dp">
+
+                    <com.ornach.nobobutton.NoboButton
+                        android:id="@+id/btn_beli"
+                        android:layout_width="100dp"
+                        android:layout_marginLeft="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:padding="10dp"
+                        android:layout_marginBottom="20dp"
+                        app:nb_text="Beli"
+                        app:nb_borderColor="#FFFFFF"
+                        app:nb_borderWidth="2dp"
+                        app:nb_backgroundColor="@color/darkBlue"
+                        app:nb_focusColor="@color/cyan"
+                        app:nb_textColor="#FFF"
+                        app:nb_radius="5dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/darkBlue">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buku Algoritma Pemrograman"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/Black">
+            </TextView>
+
+            <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Detail Buku"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/darkBlue">
+            </TextView>
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Kondisi: Baru \n
+Berat: 780 Gram \n
+Kategori: Buku Programming \n
+Etalase: Pemrograman C dan C Plus Plus \n
+BUKU ALGORITMA DAN PEMROGRAMAN DALAM BAHASA PASCAL, C, DAN C++ EDISI KEENAM (TERBARU).
+Penulis: RINALDI MUNIR, LEONY LIDYA \n
+Penerbit: INFORMATIKA \n
+ISBN : 602-1514-91-7 \n
+Tahun: Febuari 2016 \n
+Tebal Buku: 682 Hal
+
+Buku Algoritma dan Pemrograman dalam Bahasa Pascal, C, dan C++ merupakan edisi baru dari buku sebelumnya, yaitu Algoritma dan Pemrograman dalam Bahasa Pascal dan C. Buku ini disusun bagi siapapun (siswa, mahasiswa, umum) yang ingin mempelajari bidang pemrograman. \n
+Materi yang dibahas di dalam Buku ini meliputi:
+
+Konsep dasar algoritma dan pemrograman \n
+Tipe data, operator, dan Ekspresi \n
+Konstruksi dasar pembangun algoritma: runtunan, pemilihan, pengulangan \n
+Pemrograman modular: fungsi dan prosedur \n
+Larik (array) dan matriks \n
+Algoritma pencarian (searching) dan algoritma pengurutan (sorting) \n
+Arsip beruntun (sequential file) \n
+Algoritma rekursif \n
+Pengantar pemrograman dengan bahasa Java \n
+Setiap materi diperkaya dengan banyak contoh pemecahan masalah. Diharapkan buku ini dapat mengajarkan pembacanya menjadi seorang pemrogram yang dapat memprogram dengan kaidah yang benar.
+
+Notasi algoritma yang digunakan adalah notasi abstrak berupa pseudo-code. Notasi pseudo-code dibuat sedemikian sehingga ia mudah diterjemahkan (translasi) ke dalam notasi bahasa pemrograman. Bahasa pemrograman yang digunakan di dalam buku ini adalah Bahasa Pascal, Bahasa C, dan Bahasa C++. Bahasa Pascal dipilih bahasa pemrograman terstruktur untuk level pendidikan, sedangkan bahasa C dan C++ dipilih karena populer, simpel, dan banyak digunakan untuk level riset dan industri perangkat lunak. Kompilator (compiler) bahasa Pascal/C yang digunakan boleh sembarang, namun buku ini menggunakan kompilator yang free dan dapat di-download dari internet, yaitu Free Pascal dan GCC (GNU C Compiler).
+
+BUKU ALGORITMA DAN PEMROGRAMAN DALAM BAHASA PASCAL, C, DAN C++ EDISI KEENAM (TERBARU)."
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:textColor="@color/Black">
+            </TextView>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
